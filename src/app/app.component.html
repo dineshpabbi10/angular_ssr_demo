@@ -1,0 +1,8 @@
+<div *ngIf="loading">
+    Loading ... 
+</div>
+<div *ngIf="!loading">
+    {{fact}}
+    <router-outlet></router-outlet>
+</div>
+
